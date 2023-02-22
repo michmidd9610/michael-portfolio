@@ -4,8 +4,8 @@ body {
 	margin: 0 auto;
      font: 100%/1.4 Times, Times New Roman, serif;
      background-color: #FFFFFF;
-     margin: 5;
-     padding: 2;
+     margin: 5px;
+     padding: 2px;
      color: #000;
 }
 a:link {
@@ -44,7 +44,7 @@ a:hover, a:active, a:focus {
 }
 .content {
 	background: #FFFFFF;
-	margin: 5px;
+	margin: 0px;
 	float: left;
 	width: 100%;
 	text-align: left;
