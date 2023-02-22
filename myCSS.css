@@ -45,10 +45,12 @@ a:hover, a:active, a:focus {
 }
 .content {
 	background: #EEEEEE;
-	margin: 10px;
+	margin: 20px;
 	float: left;
 	width: 100%;
 	text-align: left;
+    	text-indent: 30px;
+}
 }
 .footer {
 	background: #777777;
