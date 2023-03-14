@@ -6,6 +6,7 @@ body {
      background-color: #FFFFFF;
      padding: 2px;
      color: #000655;
+     text-indent: 0px;
 }
 a:link {
      color: #000000;
@@ -47,7 +48,6 @@ a:hover, a:active, a:focus {
 	float: left;
 	width: 100%;
 	text-align: left;
-    	text-indent: 0px;
 }
 .footer {
 	background: #777777;
