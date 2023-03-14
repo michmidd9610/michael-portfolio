@@ -47,7 +47,7 @@ a:hover, a:active, a:focus {
 	float: left;
 	width: 100%;
 	text-align: left;
-    	text-indent: 30px;
+    	text-indent: 0px;
 }
 .footer {
 	background: #777777;
