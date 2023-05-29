@@ -1,25 +1,95 @@
 <!DOCTYPE html>
-<html class="homePage">
+<html lang="en">
 <head>
-	<!-- This is a comment! Text here will be ignored by the browser. -->
-	<meta charset="UTF-8">
-	<title>Michael Middleton's ECS Portfolio</title>
-	<link href="myCSS.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High-End Hair Salon</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-  <div class="header">
-  	<h1>Michael Middleton's ECS Portfolio</h1>
-  </div>
-  <div class="nav">
-    <h3><a href="index.html">Home</a> | <a href="ecs/index.html">ECS</a> | <a href="bread/index.html">Bread</a></h3>
-  </div>
-  <div class="content">
-	  <img src="images/welcome.png" alt="Welcome" width="960" height="500">
-	</div>
-  <div class="footer">
-    <h4><a href="aboutme.html">About Me</a> | <a href="mailto:michmidd9610@granitesd.org">Contact</a> | Copyright 2023</h4>
-  </div>
-</div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#stylists">Stylists</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to our High-End Hair Salon</h1>
+      <p>Experience luxury and style like never before.</p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+      <img src="haircut.jpg" alt="Haircut">
+      <h3>Haircut & Styling</h3>
+      <p>Get the perfect haircut and styling that suits your personality.</p>
+    </div>
+    <div class="service-card">
+      <img src="coloring.jpg" alt="Coloring">
+      <h3>Hair Coloring</h3>
+      <p>Transform your look with our expert hair coloring techniques.</p>
+    </div>
+    <div class="service-card">
+      <img src="spa.jpg" alt="Spa">
+      <h3>Hair Spa & Treatments</h3>
+      <p>Pamper your hair with our rejuvenating spa treatments.</p>
+    </div>
+  </section>
+
+  <section id="stylists">
+    <h2>Our Stylists</h2>
+    <div class="stylist-card">
+      <img src="stylist1.jpg" alt="Stylist 1">
+      <h3>John Doe</h3>
+      <p>With over 10 years of experience, John is a master of his craft.</p>
+    </div>
+    <div class="stylist-card">
+      <img src="stylist2.jpg" alt="Stylist 2">
+      <h3>Jane Smith</h3>
+      <p>Jane's attention to detail ensures a flawless hairstyle every time.</p>
+    </div>
+    <div class="stylist-card">
+      <img src="stylist3.jpg" alt="Stylist 3">
+      <h3>David Johnson</h3>
+      <p>David's creative approach will leave you with a unique and stunning look.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-image">
+      <img src="gallery1.jpg" alt="Gallery 1">
+    </div>
+    <div class="gallery-image">
+      <img src="gallery2.jpg" alt="Gallery 2">
+    </div>
+    <div class="gallery-image">
+      <img src="gallery3.jpg" alt="Gallery 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 High-End Hair Salon. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
